@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <script>
+    var valor1;
+    var valor2;
+    var operador;
+    var resultat;
+
+    function calculadora(operador, valor1, valor2) { 
+        if(operador=="suma"){
+            resultat=valor1+valor2;
+         }
+
+        else if(operador=="resta"){
+            resultat=valor1-valor2;
+         }
+
+         else if(operador=="multiplicacio"){
+            resultat=valor1*valor2;
+         }
+        
+    }
+</script>
+</head>
+
+<body>
+
+<script> 
+
+    calculadora("multiplicacio",4,2);
+    console.log("El resultat és "+ resultat);
+
+</script>
+
+</body>
+
+</html>
